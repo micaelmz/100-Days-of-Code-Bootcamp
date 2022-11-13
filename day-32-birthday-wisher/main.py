@@ -1,6 +1,6 @@
 import smtplib
 
-my_email = "micaelpython@outlook.com" #gitignore
+my_email = "micaelpython@outlook.com" #gitignor
 password = "pyth@n123" #gitignore
 
 
