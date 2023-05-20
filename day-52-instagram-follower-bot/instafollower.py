@@ -22,6 +22,7 @@ class InstaFollower(webdriver.Chrome):
         self.get(url)
 
     def find_followers(self):
+        # sometimes the last enumerated div isn't 2 but 1
         followers = self.find_elements(By.XPATH, '/html/body/div[2]/div/div/div[3]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div')
         return followers
 
